@@ -7,7 +7,7 @@ import logging
 from .. import loader, utils
 from ..inline.types import InlineQuery
 
-logger = logging.GetLogger(__name__)
+logger = logging.getLogger(__name__)
 
 class InlinePingMod (loader.Module):
     """Инлайн пинг"""
