@@ -1,2 +1,2 @@
-InlinePing
-PonRandom
+inlineping
+pon_random
