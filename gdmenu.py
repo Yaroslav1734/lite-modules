@@ -30,7 +30,7 @@ class GDMenuMod(loader.Module):
         "name": "GDMenu",
         "level_not_exists": "❌Данного уровня не существует!",
         "not_int": "❌Нужно указать айди уровня!",
-        "succ": "<b>Название: </b><code>{}</code>\n<b>Айди: </b><code>{}</code>\n<b>Создатель: </b><code>{}</code>\n<b>Сложность: </b><code>{}</code>\n<b>Описание: </b><code>{}</code>\n<b>Ссылка на песню: https://newgrounds.com/audio/listen/{}</b>",
+        "succ": "<b>Название: </b><code>{}</code>\n<b>Айди: </b><code>{}</code>\n<b>Создатель: </b><code>{}</code>\n<b>Сложность: </b><code>{}</code>\n<b>Описание: </b><code>{}</code>",
         "_cfg_login": "Логин от аккаунта",
         "_cfg_password": "Пароль от аккаунта"
     }
