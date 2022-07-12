@@ -56,5 +56,5 @@ class GDMenuMod(loader.Module):
                     lvl.description,
                 ),
                 )
-            except exception:
+            except Exception:
                 await message.edit(self.strings("level_not_exists"))
