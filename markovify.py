@@ -47,7 +47,7 @@ class MegaMozgLiteEditionMod(loader.Module):
         return v.lower() in ("yes", "y", "ye", "yea", "true", "t", "1", "on", "enable", "start", "run", "go", "да")
 
     
-    async def mozgcmd(self, m: types.Message):
+    async def mozglecmd(self, m: types.Message):
         '.mozgle <on/off/...> - Переключить режим дурачка в чате'
         args = utils.get_args_raw(m)
         if not m.chat:
